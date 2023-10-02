@@ -1,9 +1,12 @@
+// ignore_for_file: invalid_null_aware_operator
+
 import 'package:collection/collection.dart' show IterableExtension;
 import 'package:highlight/languages/plaintext.dart';
-import 'utils.dart';
-import 'node.dart';
+
 import 'mode.dart';
+import 'node.dart';
 import 'result.dart';
+import 'utils.dart';
 
 class Highlight {
   final _languages = {}.cast<String, Mode>();
